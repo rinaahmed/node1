@@ -3,7 +3,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Welcome to Pizza Tour' });
+  res.render('index', { title: 'Welcome to Pizza Tour Graz' });
 });
+
 
 module.exports = router;
